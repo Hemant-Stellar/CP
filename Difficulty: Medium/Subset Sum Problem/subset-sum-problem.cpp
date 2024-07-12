@@ -6,12 +6,7 @@ using namespace std;
 
 // } Driver Code Ends
 //User function template for C++
-#include <vector>
-#include <random>
-using namespace std;
 
-#include <vector>
-using namespace std;
 
 class Solution {
 public:

@@ -7,7 +7,7 @@ public:
         return a*b/gcd(a,b);
     }
     int nthUglyNumber(int n, int a, int b, int c) {
-        long long l=1,right=1e18;
+        long long l=1,right=2e9;
         long long ab=lcm(a,b);
         long long bc=lcm(b,c);
         long long ac=lcm(a,c);

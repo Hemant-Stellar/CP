@@ -5,8 +5,7 @@ int solve(vector<int>& stones,int index, int cSum,int &target,int &sum){
         return abs(sum-(2*cSum));
     }
     if(dp[index][cSum]!=-1) return dp[index][cSum];
-    dp[index][cSum] = min(solve(stones,index+1,cSum+stones[index],target,sum),solve(stones,index+1,cSum,target,sum));
-    return dp[index][cSum];
+    return dp[index][cSum] = min(solve(stones,index+1,cSum+stones[index],target,sum),solve(stones,index+1,cSum,target,sum));
 }
 public:
     int lastStoneWeightII(vector<int>& stones) {

@@ -13,6 +13,6 @@ public:
                 }
             }
         }
-        return (s1-dp[s1][s2])+(s2-dp[s1][s2]);
+        return (s1+s2 -2*dp[s1][s2]);
     }
 };

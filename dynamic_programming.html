@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Programming</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dynamic Programming</h1>
+        <ul class="links-list">
+            <ul>
+                <li><a href="https://leetcode.com/problems/climbing-stairs/ " class="link-button" target="_blank">Climbing Stairs</a></li>
+                <li><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ " class="link-button" target="_blank">Best Time To Buy And Sell Stock</a></li>
+                <li><a href="https://leetcode.com/problems/min-cost-climbing-stairs/ " class="link-button" target="_blank">Min Cost Climbing Stairs</a></li>
+                <li><a href="https://leetcode.com/problems/divisor-game/ " class="link-button" target="_blank">Divisor Game</a></li>
+                <li><a href="https://leetcode.com/problems/decode-ways/ " class="link-button" target="_blank">Decode Ways</a></li>
+                <li><a href="https://leetcode.com/problems/unique-binary-search-trees/ " class="link-button" target="_blank">Unique Binary Search Trees</a></li>
+                <li><a href="https://leetcode.com/problems/house-robber/ " class="link-button" target="_blank">House Robber</a></li>
+                <li><a href="https://leetcode.com/problems/perfect-squares/ " class="link-button" target="_blank">Perfect Squares</a></li>
+                <li><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/ " class="link-button" target="_blank">Best Time To Buy And Sell Stock With Cooldown</a></li>
+                <li><a href="https://leetcode.com/problems/coin-change/ " class="link-button" target="_blank">Coin Change</a></li>
+                <li><a href="https://leetcode.com/problems/counting-bits/ " class="link-button" target="_blank">Counting Bits</a></li>
+                <li><a href="https://leetcode.com/problems/integer-break/ " class="link-button" target="_blank">Integer Break</a></li>
+                <li><a href="https://leetcode.com/problems/count-numbers-with-unique-digits/ " class="link-button" target="_blank">Count Numbers With Unique Digits</a></li>
+                <li><a href="https://leetcode.com/problems/wiggle-subsequence/ " class="link-button" target="_blank">Wiggle Subsequence</a></li>
+                <li><a href="https://leetcode.com/problems/partition-equal-subset-sum/ " class="link-button" target="_blank">Partition Equal Subset Sum</a></li>
+                <li><a href="https://leetcode.com/problems/maximum-length-of-pair-chain/ " class="link-button" target="_blank">Maximum Length Of Pair Chain</a></li>
+                <li><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/ " class="link-button" target="_blank">Best Time To Buy And Sell Stock With Transaction Fee</a></li>
+                <li><a href="https://leetcode.com/problems/delete-and-earn/ " class="link-button" target="_blank">Delete And Earn</a></li>
+                <li><a href="https://leetcode.com/problems/domino-and-tromino-tiling/ " class="link-button" target="_blank">Domino And Tromino Tiling</a></li>
+                <li><a href="https://leetcode.com/problems/knight-dialer/ " class="link-button" target="_blank">Knight Dialer</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-cost-for-tickets/ " class="link-button" target="_blank">Minimum Cost For Tickets</a></li>
+                <li><a href="https://leetcode.com/problems/partition-array-for-maximum-sum/ " class="link-button" target="_blank">Partition Array For Maximum Sum</a></li>
+                <li><a href="https://leetcode.com/problems/filling-bookcase-shelves/ " class="link-button" target="_blank">Filling Bookcase Shelves</a></li>
+                <li><a href="https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/ " class="link-button" target="_blank">Longest Arithmetic Subsequence Of Given Difference</a></li>
+                <li><a href="https://leetcode.com/problems/greatest-sum-divisible-by-three/ " class="link-button" target="_blank">Greatest Sum Divisible By Three</a></li>
+                <li><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/ " class="link-button" target="_blank">Best Time To Buy And Sell Stock Iii</a></li>
+                <li><a href="https://leetcode.com/problems/student-attendance-record-ii/ " class="link-button" target="_blank">Student Attendance Record Ii</a></li>
+                <li><a href="https://leetcode.com/problems/decode-ways-ii/ " class="link-button" target="_blank">Decode Ways Ii</a></li>
+                <li><a href="https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/ " class="link-button" target="_blank">Triples With Bitwise And Equal To Zero</a></li>
+                <li><a href="https://leetcode.com/problems/maximum-profit-in-job-scheduling/ " class="link-button" target="_blank">Maximum Profit In Job Scheduling</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/ " class="link-button" target="_blank">Minimum Number Of Taps To Open To Water A Garden</a></li>
+                <li><a href="https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/ " class="link-button" target="_blank">Count All Valid Pickup And Delivery Options</a></li>
+                <li><a href="https://leetcode.com/problems/stone-game-iii/ " class="link-button" target="_blank">Stone Game Iii</a></li>
+                <li><a href="https://leetcode.com/problems/restore-the-array/ " class="link-button" target="_blank">Restore The Array</a></li>
+                <li><a href="https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/ " class="link-button" target="_blank">Form Largest Integer With Digits That Add Up To Target</a></li>
+                <li><a href="https://leetcode.com/problems/stone-game-iv/ " class="link-button" target="_blank">Stone Game Iv</a></li>
+                <li><a href="https://leetcode.com/problems/coin-change-2/ " class="link-button" target="_blank">Coin Change 2</a></li>
+                <li>2.Knapsack
+                  <ul>
+                <li><a href="https://leetcode.com/problems/house-robber-ii/ " class="link-button" target="_blank">House Robber Ii</a></li>
+                <li><a href="https://leetcode.com/problems/ones-and-zeroes/ " class="link-button" target="_blank">Ones And Zeroes</a></li>
+                <li><a href="https://leetcode.com/problems/target-sum/ " class="link-button" target="_blank">Target Sum</a></li>
+                <li><a href="https://leetcode.com/problems/shopping-offers/ " class="link-button" target="_blank">Shopping Offers</a></li>
+                <li><a href="https://leetcode.com/problems/2-keys-keyboard/ " class="link-button" target="_blank">2 Keys Keyboard</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/ " class="link-button" target="_blank">Minimum Swaps To Make Sequences Increasing</a></li>
+                <li><a href="https://leetcode.com/problems/best-team-with-no-conflicts/ " class="link-button" target="_blank">Best Team With No Conflicts</a></li>
+                <li><a href="https://leetcode.com/problems/profitable-schemes/ " class="link-button" target="_blank">Profitable Schemes</a></li>
+                <li><a href="https://leetcode.com/problems/tallest-billboard/ " class="link-button" target="_blank">Tallest Billboard</a></li>
+                <li><a href="https://leetcode.com/problems/pizza-with-3n-slices/ " class="link-button" target="_blank">Pizza With 3N Slices</a></li>
+                <li><a href="https://leetcode.com/problems/reducing-dishes/ " class="link-button" target="_blank">Reducing Dishes</a></li>
+                </ul>
+                <li>3.Multi Dimensions DP
+                  <ul>
+                <li><a href="https://leetcode.com/problems/triangle/ " class="link-button" target="_blank">Triangle</a></li>
+                <li><a href="https://leetcode.com/problems/combination-sum-iv/ " class="link-button" target="_blank">Combination Sum Iv</a></li>
+                <li><a href="https://leetcode.com/problems/out-of-boundary-paths/ " class="link-button" target="_blank">Out Of Boundary Paths</a></li>
+                <li><a href="https://leetcode.com/problems/knight-probability-in-chessboard/ " class="link-button" target="_blank">Knight Probability In Chessboard</a></li>
+                <li><a href="https://leetcode.com/problems/champagne-tower/ " class="link-button" target="_blank">Champagne Tower</a></li>
+                <li><a href="https://leetcode.com/problems/largest-sum-of-averages/ " class="link-button" target="_blank">Largest Sum Of Averages</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-falling-path-sum/ " class="link-button" target="_blank">Minimum Falling Path Sum</a></li>
+                <li><a href="https://leetcode.com/problems/video-stitching/ " class="link-button" target="_blank">Video Stitching</a></li>
+                <li><a href="https://leetcode.com/problems/longest-arithmetic-subsequence/ " class="link-button" target="_blank">Longest Arithmetic Subsequence</a></li>
+                <li><a href="https://leetcode.com/problems/stone-game-ii/ " class="link-button" target="_blank">Stone Game Ii</a></li>
+                <li><a href="https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/ " class="link-button" target="_blank">Number Of Dice Rolls With Target Sum</a></li>
+                <li><a href="https://leetcode.com/problems/dice-roll-simulation/ " class="link-button" target="_blank">Dice Roll Simulation</a></li>
+                <li><a href="https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/ " class="link-button" target="_blank">Number Of Sets Of K Non Overlapping Line Segments</a></li>
+                <li><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/ " class="link-button" target="_blank">Best Time To Buy And Sell Stock Iv</a></li>
+                <li><a href="https://leetcode.com/problems/create-maximum-number/ " class="link-button" target="_blank">Create Maximum Number</a></li>
+                <li><a href="https://leetcode.com/problems/frog-jump/ " class="link-button" target="_blank">Frog Jump</a></li>
+                <li><a href="https://leetcode.com/problems/split-array-largest-sum/ " class="link-button" target="_blank">Split Array Largest Sum</a></li>
+                <li><a href="https://leetcode.com/problems/freedom-trail/ " class="link-button" target="_blank">Freedom Trail</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-number-of-refueling-stops/ " class="link-button" target="_blank">Minimum Number Of Refueling Stops</a></li>
+                <li><a href="https://leetcode.com/problems/number-of-music-playlists/ " class="link-button" target="_blank">Number Of Music Playlists</a></li>
+                <li><a href="https://leetcode.com/problems/count-vowels-permutation/ " class="link-button" target="_blank">Count Vowels Permutation</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-falling-path-sum-ii/ " class="link-button" target="_blank">Minimum Falling Path Sum Ii</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/ " class="link-button" target="_blank">Minimum Distance To Type A Word Using Two Fingers</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/ " class="link-button" target="_blank">Minimum Difficulty Of A Job Schedule</a></li>
+                <li><a href="https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/ " class="link-button" target="_blank">Number Of Ways To Paint N 3 Grid</a></li>
+                <li><a href="https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/" class="link-button" target="_blank">Problems</a></li>
+                </ul>
+                <li>
+                  <ul>
+                <li><a href="https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/ " class="link-button" target="_blank">Number Of Ways Of Cutting A Pizza</a></li>
+                <li><a href="https://leetcode.com/problems/paint-house-iii/ " class="link-button" target="_blank">Paint House Iii</a></li>
+                <li><a href="https://leetcode.com/problems/count-all-possible-routes/ " class="link-button" target="_blank">Count All Possible Routes</a></li>
+                </ul>
+                <li>4.Interval DP
+                  <ul>
+                <li><a href="https://leetcode.com/problems/guess-number-higher-or-lower-ii/ " class="link-button" target="_blank">Guess Number Higher Or Lower Ii</a></li>
+                <li><a href="https://leetcode.com/problems/arithmetic-slices/ " class="link-button" target="_blank">Arithmetic Slices</a></li>
+                <li><a href="https://leetcode.com/problems/predict-the-winner/ " class="link-button" target="_blank">Predict The Winner</a></li>
+                <li><a href="https://leetcode.com/problems/palindromic-substrings/ " class="link-button" target="_blank">Palindromic Substrings</a></li>
+                <li><a href="https://leetcode.com/problems/stone-game/ " class="link-button" target="_blank">Stone Game</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-score-triangulation-of-polygon/ " class="link-button" target="_blank">Minimum Score Triangulation Of Polygon</a></li>
+                <li><a href="https://leetcode.com/problems/last-stone-weight-ii/ " class="link-button" target="_blank">Last Stone Weight Ii</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/ " class="link-button" target="_blank">Minimum Cost Tree From Leaf Values</a></li>
+                <li><a href="https://leetcode.com/problems/stone-game-vii/ " class="link-button" target="_blank">Stone Game Vii</a></li>
+                <li><a href="https://leetcode.com/problems/burst-balloons/ " class="link-button" target="_blank">Burst Balloons</a></li>
+                <li><a href="https://leetcode.com/problems/remove-boxes/ " class="link-button" target="_blank">Remove Boxes</a></li>
+                <li><a href="https://leetcode.com/problems/strange-printer/ " class="link-button" target="_blank">Strange Printer</a></li>
+                <li><a href="https://leetcode.com/problems/valid-permutations-for-di-sequence/ " class="link-button" target="_blank">Valid Permutations For Di Sequence</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-cost-to-merge-stones/ " class="link-button" target="_blank">Minimum Cost To Merge Stones</a></li>
+                <li><a href="https://leetcode.com/problems/allocate-mailboxes/ " class="link-button" target="_blank">Allocate Mailboxes</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-cost-to-cut-a-stick/ " class="link-button" target="_blank">Minimum Cost To Cut A Stick</a></li>
+                <li><a href="https://leetcode.com/problems/stone-game-v/ " class="link-button" target="_blank">Stone Game V</a></li>
+                </ul>
+                <li>5.bit DP
+                  <ul>
+                <li><a href="https://leetcode.com/problems/can-i-win/ " class="link-button" target="_blank">Can I Win</a></li>
+                <li><a href="https://leetcode.com/problems/partition-to-k-equal-sum-subsets/ " class="link-button" target="_blank">Partition To K Equal Sum Subsets</a></li>
+                <li><a href="https://leetcode.com/problems/stickers-to-spell-word/ " class="link-button" target="_blank">Stickers To Spell Word</a></li>
+                <li><a href="https://leetcode.com/problems/shortest-path-visiting-all-nodes/ " class="link-button" target="_blank">Shortest Path Visiting All Nodes</a></li>
+                <li><a href="https://leetcode.com/problems/smallest-sufficient-team/ " class="link-button" target="_blank">Smallest Sufficient Team</a></li>
+                <li><a href="https://leetcode.com/problems/maximum-students-taking-exam/ " class="link-button" target="_blank">Maximum Students Taking Exam</a></li>
+                <li><a href="https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/ " class="link-button" target="_blank">Number Of Ways To Wear Different Hats To Each Other</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-cost-to-connect-two-groups-of-points/ " class="link-button" target="_blank">Minimum Cost To Connect Two Groups Of Points</a></li>
+                <li><a href="https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/ " class="link-button" target="_blank">Maximum Number Of Achievable Transfer Requests</a></li>
+                <li><a href="https://leetcode.com/problems/distribute-repeating-integers/ " class="link-button" target="_blank">Distribute Repeating Integers</a></li>
+                <li><a href="https://leetcode.com/problems/maximize-grid-happiness/ " class="link-button" target="_blank">Maximize Grid Happiness</a></li>
+                <li><a href="https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/ " class="link-button" target="_blank">Find Minimum Time To Finish All Jobs</a></li>
+                </ul>
+                <li>6.Digit DP
+                  <ul>
+                <li><a href="https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/ " class="link-button" target="_blank">Non Negative Integers Without Consecutive Ones</a></li>
+                <li><a href="https://leetcode.com/problems/numbers-at-most-n-given-digit-set/ " class="link-button" target="_blank">Numbers At Most N Given Digit Set</a></li>
+                <li><a href="https://leetcode.com/problems/numbers-with-repeated-digits/ " class="link-button" target="_blank">Numbers With Repeated Digits</a></li>
+                </ul>
+                <li>7.DP on Trees
+                  <ul>
+                <li><a href="https://leetcode.com/problems/unique-binary-search-trees-ii/ " class="link-button" target="_blank">Unique Binary Search Trees Ii</a></li>
+                <li><a href="https://leetcode.com/problems/house-robber-iii/ " class="link-button" target="_blank">House Robber Iii</a></li>
+                <li><a href="https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/ " class="link-button" target="_blank">Maximum Product Of Splitted Binary Tree</a></li>
+                <li><a href="https://leetcode.com/problems/linked-list-in-binary-tree/ " class="link-button" target="_blank">Linked List In Binary Tree</a></li>
+                <li><a href="https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/ " class="link-button" target="_blank">Longest Zigzag Path In A Binary Tree</a></li>
+                <li><a href="https://leetcode.com/problems/binary-tree-cameras/ " class="link-button" target="_blank">Binary Tree Cameras</a></li>
+                <li><a href="https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/ " class="link-button" target="_blank">Maximum Sum Bst In Binary Tree</a></li>
+                <li><a href="https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/ " class="link-button" target="_blank">Number Of Ways To Reorder Array To Get Same Bst</a></li>
+                </ul>
+                <li>8.String DP
+                  <ul>
+                <li><a href="https://leetcode.com/problems/is-subsequence/ " class="link-button" target="_blank">Is Subsequence</a></li>
+                <li><a href="https://leetcode.com/problems/palindrome-partitioning/ " class="link-button" target="_blank">Palindrome Partitioning</a></li>
+                <li><a href="https://leetcode.com/problems/palindrome-partitioning-ii/ " class="link-button" target="_blank">Palindrome Partitioning Ii</a></li>
+                <li><a href="https://leetcode.com/problems/word-break/ " class="link-button" target="_blank">Word Break</a></li>
+                <li><a href="https://leetcode.com/problems/unique-substrings-in-wraparound-string/ " class="link-button" target="_blank">Unique Substrings In Wraparound String</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/ " class="link-button" target="_blank">Minimum Ascii Delete Sum For Two Strings</a></li>
+                <li><a href="https://leetcode.com/problems/longest-string-chain/ " class="link-button" target="_blank">Longest String Chain</a></li>
+                <li><a href="https://leetcode.com/problems/longest-happy-string/ " class="link-button" target="_blank">Longest Happy String</a></li>
+                <li><a href="https://leetcode.com/problems/longest-valid-parentheses/ " class="link-button" target="_blank">Longest Valid Parentheses</a></li>
+                <li><a href="https://leetcode.com/problems/distinct-subsequences/ " class="link-button" target="_blank">Distinct Subsequences</a></li>
+                <li><a href="https://leetcode.com/problems/word-break-ii/ " class="link-button" target="_blank">Word Break Ii</a></li>
+                <li><a href="https://leetcode.com/problems/count-the-repetitions/ " class="link-button" target="_blank">Count The Repetitions</a></li>
+                <li><a href="https://leetcode.com/problems/concatenated-words/ " class="link-button" target="_blank">Concatenated Words</a></li>
+                <li><a href="https://leetcode.com/problems/count-different-palindromic-subsequences/ " class="link-button" target="_blank">Count Different Palindromic Subsequences</a></li>
+                <li><a href="https://leetcode.com/problems/distinct-subsequences-ii/ " class="link-button" target="_blank">Distinct Subsequences Ii</a></li>
+                <li><a href="https://leetcode.com/problems/longest-chunked-palindrome-decomposition/ " class="link-button" target="_blank">Longest Chunked Palindrome Decomposition</a></li>
+                <li><a href="https://leetcode.com/problems/palindrome-partitioning-iii/ " class="link-button" target="_blank">Palindrome Partitioning Iii</a></li>
+                <li><a href="https://leetcode.com/problems/find-all-good-strings/ " class="link-button" target="_blank">Find All Good Strings</a></li>
+                <li><a href="https://leetcode.com/problems/string-compression-ii/ " class="link-button" target="_blank">String Compression Ii</a></li>
+                <li><a href="https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/" class="link-button" target="_blank">dictionary</a></li>
+                </ul>
+                <li>
+                  <ul>
+                </ul>
+                <li>9.Probability DP
+                  <ul>
+                <li><a href="https://leetcode.com/problems/soup-servings/ " class="link-button" target="_blank">Soup Servings</a></li>
+                <li><a href="https://leetcode.com/problems/new-21-game/ " class="link-button" target="_blank">New 21 Game</a></li>
+                <li><a href="https://leetcode.com/problems/airplane-seat-assignment-probability/ " class="link-button" target="_blank">Airplane Seat Assignment Probability</a></li>
+                </ul>
+                <li>10.Classic DPs
+                  <ul>
+                </ul>
+                <li>A.Kadane's Algorithm
+                  <ul>
+                <li><a href="https://leetcode.com/problems/maximum-subarray/ " class="link-button" target="_blank">Maximum Subarray</a></li>
+                <li><a href="https://leetcode.com/problems/maximum-product-subarray/ " class="link-button" target="_blank">Maximum Product Subarray</a></li>
+                <li><a href="https://leetcode.com/problems/bitwise-ors-of-subarrays/ " class="link-button" target="_blank">Bitwise Ors Of Subarrays</a></li>
+                <li><a href="https://leetcode.com/problems/longest-turbulent-subarray/ " class="link-button" target="_blank">Longest Turbulent Subarray</a></li>
+                <li><a href="https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/ " class="link-button" target="_blank">Maximum Subarray Sum With One Deletion</a></li>
+                <li><a href="https://leetcode.com/problems/k-concatenation-maximum-sum/ " class="link-button" target="_blank">K Concatenation Maximum Sum</a></li>
+                <li><a href="https://leetcode.com/problems/largest-divisible-subset/ " class="link-button" target="_blank">Largest Divisible Subset</a></li>
+                <li><a href="https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/ " class="link-button" target="_blank">Length Of Longest Fibonacci Subsequence</a></li>
+                </ul>
+                <li>B.LCS
+                  <ul>
+                <li><a href="https://leetcode.com/problems/longest-palindromic-substring/ " class="link-button" target="_blank">Longest Palindromic Substring</a></li>
+                <li><a href="https://leetcode.com/problems/longest-palindromic-subsequence/ " class="link-button" target="_blank">Longest Palindromic Subsequence</a></li>
+                <li><a href="https://leetcode.com/problems/maximum-length-of-repeated-subarray/ " class="link-button" target="_blank">Maximum Length Of Repeated Subarray</a></li>
+                <li><a href="https://leetcode.com/problems/longest-common-subsequence/ " class="link-button" target="_blank">Longest Common Subsequence</a></li>
+                <li><a href="https://leetcode.com/problems/regular-expression-matching/ " class="link-button" target="_blank">Regular Expression Matching</a></li>
+                <li><a href="https://leetcode.com/problems/wildcard-matching/ " class="link-button" target="_blank">Wildcard Matching</a></li>
+                <li><a href="https://leetcode.com/problems/edit-distance/ " class="link-button" target="_blank">Edit Distance</a></li>
+                <li><a href="https://leetcode.com/problems/interleaving-string/ " class="link-button" target="_blank">Interleaving String</a></li>
+                <li><a href="https://leetcode.com/problems/shortest-common-supersequence/ " class="link-button" target="_blank">Shortest Common Supersequence</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/" class="link-button" target="_blank">Problems</a></li>
+                </ul>
+                <li>
+                <li><a href="https://leetcode.com/problems/max-dot-product-of-two-subsequences/ " class="link-button" target="_blank">Max Dot Product Of Two Subsequences</a></li>
+                </ul>
+                <li>C.LIS
+                  <ul>
+                <li><a href="https://leetcode.com/problems/longest-increasing-subsequence/ " class="link-button" target="_blank">Longest Increasing Subsequence</a></li>
+                <li><a href="https://leetcode.com/problems/number-of-longest-increasing-subsequence/ " class="link-button" target="_blank">Number Of Longest Increasing Subsequence</a></li>
+                <li><a href="https://leetcode.com/problems/russian-doll-envelopes/ " class="link-button" target="_blank">Russian Doll Envelopes</a></li>
+                <li><a href="https://leetcode.com/problems/delete-columns-to-make-sorted-iii/ " class="link-button" target="_blank">Delete Columns To Make Sorted Iii</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/" class="link-button" target="_blank">minimum-number-of-removals-to-make-mountain-array</a></li>
+                </ul>
+                <li>
+                  <ul>
+                <li><a href="https://leetcode.com/problems/maximum-height-by-stacking-cuboids/ " class="link-button" target="_blank">Maximum Height By Stacking Cuboids</a></li>
+                <li><a href="https://leetcode.com/problems/make-array-strictly-increasing/ " class="link-button" target="_blank">Make Array Strictly Increasing</a></li>
+                </ul>
+                <li>D.2D Grid Traversal
+                  <ul>
+                <li><a href="https://leetcode.com/problems/unique-paths/ " class="link-button" target="_blank">Unique Paths</a></li>
+                <li><a href="https://leetcode.com/problems/unique-paths-ii/ " class="link-button" target="_blank">Unique Paths Ii</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-path-sum/ " class="link-button" target="_blank">Minimum Path Sum</a></li>
+                <li><a href="https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/ " class="link-button" target="_blank">Maximum Non Negative Product In A Matrix</a></li>
+                <li><a href="https://leetcode.com/problems/where-will-the-ball-fall/ " class="link-button" target="_blank">Where Will The Ball Fall</a></li>
+                <li><a href="https://leetcode.com/problems/dungeon-game/ " class="link-button" target="_blank">Dungeon Game</a></li>
+                <li><a href="https://leetcode.com/problems/cherry-pickup/ " class="link-button" target="_blank">Cherry Pickup</a></li>
+                <li><a href="https://leetcode.com/problems/number-of-paths-with-max-score/ " class="link-button" target="_blank">Number Of Paths With Max Score</a></li>
+                <li><a href="https://leetcode.com/problems/cherry-pickup-ii/ " class="link-button" target="_blank">Cherry Pickup Ii</a></li>
+                <li><a href="https://leetcode.com/problems/kth-smallest-instructions/ " class="link-button" target="_blank">Kth Smallest Instructions</a></li>
+                </ul>
+                <li>E.Cumulative Sum
+                  <ul>
+                <li><a href="https://leetcode.com/problems/range-sum-query-immutable/ " class="link-button" target="_blank">Range Sum Query Immutable</a></li>
+                <li><a href="https://leetcode.com/problems/maximal-square/ " class="link-button" target="_blank">Maximal Square</a></li>
+                <li><a href="https://leetcode.com/problems/range-sum-query-2d-immutable/ " class="link-button" target="_blank">Range Sum Query 2D Immutable</a></li>
+                <li><a href="https://leetcode.com/problems/largest-plus-sign/ " class="link-button" target="_blank">Largest Plus Sign</a></li>
+                <li><a href="https://leetcode.com/problems/push-dominoes/ " class="link-button" target="_blank">Push Dominoes</a></li>
+                <li><a href="https://leetcode.com/problems/largest-1-bordered-square/ " class="link-button" target="_blank">Largest 1 Bordered Square</a></li>
+                <li><a href="https://leetcode.com/problems/count-square-submatrices-with-all-ones/ " class="link-button" target="_blank">Count Square Submatrices With All Ones</a></li>
+                <li><a href="https://leetcode.com/problems/matrix-block-sum/ " class="link-button" target="_blank">Matrix Block Sum</a></li>
+                <li><a href="https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/ " class="link-button" target="_blank">Maximum Points You Can Obtain From Cards</a></li>
+                <li><a href="https://leetcode.com/problems/count-submatrices-with-all-ones/ " class="link-button" target="_blank">Count Submatrices With All Ones</a></li>
+                <li><a href="https://leetcode.com/problems/ways-to-make-a-fair-array/ " class="link-button" target="_blank">Ways To Make A Fair Array</a></li>
+                <li><a href="https://leetcode.com/problems/maximal-rectangle/ " class="link-button" target="_blank">Maximal Rectangle</a></li>
+                <li><a href="https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/ " class="link-button" target="_blank">Max Sum Of Rectangle No Larger Than K</a></li>
+                <li><a href="https://leetcode.com/problems/super-washing-machines/ " class="link-button" target="_blank">Super Washing Machines</a></li>
+                <li><a href="https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/ " class="link-button" target="_blank">Maximum Sum Of 3 Non Overlapping Subarrays</a></li>
+                <li><a href="https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/ " class="link-button" target="_blank">Number Of Submatrices That Sum To Target</a></li>
+                <li><a href="https://leetcode.com/problems/get-the-maximum-score/ " class="link-button" target="_blank">Get The Maximum Score</a></li>
+                </ul>
+                <li>F.Hashmap (SubArray)
+                  <ul>
+                <li><a href="https://leetcode.com/problems/continuous-subarray-sum/ " class="link-button" target="_blank">Continuous Subarray Sum</a></li>
+                <li><a href="https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/" class="link-button" target="_blank">find-two-non-overlapping-sub-arrays-each-with-target-sum</a></li>
+                </ul>
+                <li>
+                  <ul>
+                <li><a href="https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/" class="link-button" target="_blank">Problems</a></li>
+                </ul>
+                <li>
+                  <ul>
+                </ul>
+                <li>11.DP + Alpha (Tricks/DS)
+                  <ul>
+                <li><a href="https://leetcode.com/problems/arithmetic-slices-ii-subsequence/ " class="link-button" target="_blank">Arithmetic Slices Ii Subsequence</a></li>
+                <li><a href="https://leetcode.com/problems/odd-even-jump/ " class="link-button" target="_blank">Odd Even Jump</a></li>
+                <li><a href="https://leetcode.com/problems/constrained-subsequence-sum/ " class="link-button" target="_blank">Constrained Subsequence Sum</a></li>
+                <li><a href="https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/ " class="link-button" target="_blank">Delivering Boxes From Storage To Ports</a></li>
+                </ul>
+                <li>12.Insertion DP
+                  <ul>
+                <li><a href="https://leetcode.com/problems/k-inverse-pairs-array/ " class="link-button" target="_blank">K Inverse Pairs Array</a></li>
+                </ul>
+                <li>13.Graph DP
+                  <ul>
+                <li><a href="https://leetcode.com/problems/cheapest-flights-within-k-stops/ " class="link-button" target="_blank">Cheapest Flights Within K Stops</a></li>
+                <li><a href="https://leetcode.com/problems/find-the-shortest-superstring/ " class="link-button" target="_blank">Find The Shortest Superstring</a></li>
+                </ul>
+                <li>14.Memoization
+                  <ul>
+                <li><a href="https://leetcode.com/problems/minimum-jumps-to-reach-home/ " class="link-button" target="_blank">Minimum Jumps To Reach Home</a></li>
+                <li><a href="https://leetcode.com/problems/scramble-string/ " class="link-button" target="_blank">Scramble String</a></li>
+                <li><a href="https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/ " class="link-button" target="_blank">Tiling A Rectangle With The Fewest Squares</a></li>
+                <li><a href="https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/" class="link-button" target="_blank">number-of-ways-to-stay-in-the-same-place-after-some-steps/</a></li>
+                </ul>
+                <li>
+                  <ul>
+                <li><a href="https://leetcode.com/problems/jump-game-v/ " class="link-button" target="_blank">Jump Game V</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/ " class="link-button" target="_blank">Minimum Number Of Days To Eat N Oranges</a></li>
+                </ul>
+                <li>15.Binary Lifting
+                  <ul>
+                <li><a href="https://leetcode.com/problems/kth-ancestor-of-a-tree-node/ " class="link-button" target="_blank">Kth Ancestor Of A Tree Node</a></li>
+                </ul>
+                <li>16.Math
+                  <ul>
+                <li><a href="https://leetcode.com/problems/ugly-number-ii/ " class="link-button" target="_blank">Ugly Number Ii</a></li>
+                <li><a href="https://leetcode.com/problems/count-sorted-vowel-strings/ " class="link-button" target="_blank">Count Sorted Vowel Strings</a></li>
+                <li><a href="https://leetcode.com/problems/race-car/ " class="link-button" target="_blank">Race Car</a></li>
+                <li><a href="https://leetcode.com/problems/super-egg-drop/ " class="link-button" target="_blank">Super Egg Drop</a></li>
+                <li><a href="https://leetcode.com/problems/least-operators-to-express-number/ " class="link-button" target="_blank">Least Operators To Express Number</a></li>
+                <li><a href="https://leetcode.com/problems/largest-multiple-of-three/ " class="link-button" target="_blank">Largest Multiple Of Three</a></li>
+                <li><a href="https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/ " class="link-button" target="_blank">Minimum One Bit Operations To Make Integers Zero</a></li>
+                <ul>
+                    <li>Palindrome Partitioning II
+                      <ul>
+                    <li><a href="https://leetcode.com/problems/palindrome-partitioning-ii/" class="link-button" target="_blank">Palindrome Partitioning Ii</a></li>
+                    </ul>
+                    <li>Make Array Strictly Increasing
+                      <ul>
+                    <li><a href="https://leetcode.com/problems/make-array-strictly-increasing/" class="link-button" target="_blank">Make Array Strictly Increasing</a></li>
+                    </ul>
+                    <li>Coin Change 2
+                      <ul>
+                    <li><a href="https://leetcode.com/problems/coin-change-2/k-comparisons/" class="link-button" target="_blank">K Comparisons</a></li>
+                    </ul>
+                  </ul>
+        </ul>
+    </div>
+</body>
+</html>

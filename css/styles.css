@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #f0f4ff; /* Light lavender-blue background */
+    background-color: #e0e0e0; /* Slightly grey background */
     color: #333;
     padding: 20px;
 }
@@ -27,25 +27,19 @@ h1 {
     margin-bottom: 20px;
 }
 
-h2 {
-    font-size: 2em;
-    color: #4A90E2;
-    margin-bottom: 20px;
-}
-
 .topic-buttons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 15px; /* Reduce gap between buttons */
 }
 
 .topic-button {
-    padding: 15px 30px;
-    font-size: 1.5em;
+    padding: 10px 20px; /* Shorter buttons */
+    font-size: 1.3em; /* Slightly smaller font size */
     color: white;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 8px; /* Slightly rounded corners */
     background-color: #4A90E2; /* Base color: soft blue */
     transition: background-color 0.3s ease, transform 0.2s ease;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /* Add shadow for depth */
@@ -79,61 +73,30 @@ h2 {
         font-size: 2.5em;
     }
 
-    h2 {
-        font-size: 1.8em;
-    }
-
     .topic-button {
-        padding: 10px 20px;
-        font-size: 1.3em;
+        padding: 8px 15px; /* Adjust padding for smaller screens */
+        font-size: 1.1em; /* Smaller font size for mobile */
     }
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-}
 
-body {
-    background-color: #f0f4ff; /* Light lavender-blue background */
-    color: #333;
-    padding: 20px;
-}
-
-.container {
-    max-width: 1200px;
-    margin: auto;
-    text-align: center;
-    background-color: #ffffff; /* White background for content area */
-    padding: 30px;
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-}
-
-h1 {
-    font-size: 3em;
-    color: #4A90E2; /* Soft blue for the main heading */
-    margin-bottom: 20px;
-}
-
+/* Links Section */
 .links-list {
     list-style-type: none;
     padding-left: 0;
 }
 
 .links-list li {
-    margin-bottom: 15px; /* Space between each button */
+    margin-bottom: 10px; /* Space between each button */
 }
 
 .link-button {
     display: block;
-    padding: 15px;
-    font-size: 1.2em;
+    padding: 10px 15px; /* Shorter buttons */
+    font-size: 1.1em; /* Slightly smaller font size */
     color: white;
     text-decoration: none;
     background-color: #4A90E2; /* Button color: blue */
-    border-radius: 8px;
+    border-radius: 6px; /* Slightly rounded corners */
     transition: background-color 0.3s ease, transform 0.2s ease;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /* Shadow for depth */
 }
@@ -143,14 +106,9 @@ h1 {
     transform: translateY(-3px); /* Lift effect on hover */
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
-    h1 {
-        font-size: 2.5em;
-    }
-
     .link-button {
-        padding: 10px 20px;
-        font-size: 1.1em;
+        padding: 8px 12px; /* Adjust padding for smaller screens */
+        font-size: 1em; /* Smaller font size for mobile */
     }
 }

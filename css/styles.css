@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f0f4ff; /* Light lavender-blue background */
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    background-color: #ffffff; /* White background for content area */
+    padding: 30px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    font-size: 3em;
+    color: #4A90E2; /* Soft blue for the main heading */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #4A90E2;
+    margin-bottom: 20px;
+}
+
+.topic-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.topic-button {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #4A90E2; /* Base color: soft blue */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /* Add shadow for depth */
+}
+
+.topic-button:hover {
+    background-color: #3b79b0; /* Darker blue on hover */
+    transform: translateY(-5px); /* Lift effect on hover */
+    opacity: 0.95;
+}
+
+/* Individual button colors for topics */
+.arrays {
+    background-color: #A2A9FF; /* Light blue */
+}
+
+.graphs {
+    background-color: #7B61FF; /* Lavender */
+}
+
+.binary-trees {
+    background-color: #C3B1E1; /* Light lavender */
+}
+
+.dynamic-programming {
+    background-color: #8EADF0; /* Softer blue */
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    .topic-button {
+        padding: 10px 20px;
+        font-size: 1.3em;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f0f4ff; /* Light lavender-blue background */
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    background-color: #ffffff; /* White background for content area */
+    padding: 30px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    font-size: 3em;
+    color: #4A90E2; /* Soft blue for the main heading */
+    margin-bottom: 20px;
+}
+
+.links-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.links-list li {
+    margin-bottom: 15px; /* Space between each button */
+}
+
+.link-button {
+    display: block;
+    padding: 15px;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    background-color: #4A90E2; /* Button color: blue */
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /* Shadow for depth */
+}
+
+.link-button:hover {
+    background-color: #3b79b0; /* Darker blue on hover */
+    transform: translateY(-3px); /* Lift effect on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .link-button {
+        padding: 10px 20px;
+        font-size: 1.1em;
+    }
+}
